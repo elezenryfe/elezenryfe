@@ -1,6 +1,6 @@
 - Hi, I’m Mohammed Farhaan Ahmed, an Msc graduate in Data Analysis.
-- I’m interested in python development (front-end/back-end), data analysis, data cleaning, data modelling.
-- I am also interested in LLMs, and bilding MCPs
+- I’m interested in python development (front-end/back-end), data analysis, data cleaning, data modelling, including machine learning and statistical inference
+- I am also interested in LLMs, and building MCPs
 - How to reach me: farhaanzaki@gmail.com
 
 <!---

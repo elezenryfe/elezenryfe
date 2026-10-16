@@ -1,6 +1,6 @@
 # Hi, I'm Farhaan
 
-**Data Scientist** I take messy data, find the pattern in it, build a model on top, and then ship the thing so people can actually use it.
+**Data Scientist:** I take messy data, find the pattern in it, build a model on top, and then ship the thing so people can actually use it.
 
 Most of my work starts with data nobody has cleaned and ends with something running in production. Some of that is classical machine learning, some of it is LLMs and retrieval, and a fair amount is just building the application around it.
 

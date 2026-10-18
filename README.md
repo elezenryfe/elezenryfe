@@ -24,7 +24,7 @@ Data Scientist at **BMW Financial Services**, working on complaint handling, con
 
 ## Selected work (Personal)
 
-**Ilmify** — RAG question answering over the full hadith corpus: 40,943 passages across nine collections, normalised from nine inconsistent source schemas into one. Multilingual embeddings, FAISS with exact cosine similarity, then re-ranked by collection authority so a more authoritative source wins a tie. Answers are grounded strictly in retrieved passages, with the source named. *Python, sentence-transformers, FAISS, FastAPI*
+[**Ilmify**](https://github.com/elezenryfe/ilmify) — RAG question answering over the full hadith corpus: 40,943 passages across nine collections, normalised from nine inconsistent source schemas into one. Multilingual embeddings, FAISS with exact cosine similarity, then re-ranked by collection authority so a more authoritative source wins a tie. Answers are grounded strictly in retrieved passages, with the source named. *Python, sentence-transformers, FAISS, FastAPI*
 
 **Equity Valuation from LLM-Extracted Guidance** — reads SEC filings and earnings-call transcripts, extracts management's forward EPS and revenue guidance, and values the share from it. Built treating hallucination as the primary failure mode: extraction is schema-constrained, outputs are checked against quoted source spans and plausibility bands, and anything that fails is discarded rather than surfaced. *FastAPI, Celery, PostgreSQL, ChromaDB, Playwright*
 

@@ -26,15 +26,15 @@ Data Scientist at **BMW Financial Services**, working on complaint handling, con
 
 [**Ilmify**](https://github.com/elezenryfe/ilmify) — RAG question answering over the full hadith corpus: 40,943 passages across nine collections, normalised from nine inconsistent source schemas into one. Multilingual embeddings, FAISS with exact cosine similarity, then re-ranked by collection authority so a more authoritative source wins a tie. Answers are grounded strictly in retrieved passages, with the source named. *Python, sentence-transformers, FAISS, FastAPI*
 
-**Equity Valuation from LLM-Extracted Guidance** — reads SEC filings and earnings-call transcripts, extracts management's forward EPS and revenue guidance, and values the share from it. Built treating hallucination as the primary failure mode: extraction is schema-constrained, outputs are checked against quoted source spans and plausibility bands, and anything that fails is discarded rather than surfaced. *FastAPI, Celery, PostgreSQL, ChromaDB, Playwright*
+[**Equity Valuation from LLM-Extracted Guidance**](https://github.com/elezenryfe/stock_evaluation) — reads SEC filings and earnings-call transcripts, extracts management's forward EPS and revenue guidance, and values the share from it. Built treating hallucination as the primary failure mode: extraction is schema-constrained, outputs are checked against quoted source spans and plausibility bands, and anything that fails is discarded rather than surfaced. *FastAPI, Celery, PostgreSQL, ChromaDB, Playwright*
 
-**JobTailor** — parses a CV and a job description, scores the fit, and generates a tailored CV and cover letter as typeset PDFs. Also a study in cost: token usage cut by ~94% across the LLM calls by moving keyword extraction to local TF-IDF and adding caching. *FastAPI, React, Playwright, Chrome extension*
+[**JobTailor**](https://github.com/elezenryfe/jobtailor) — parses a CV and a job description, scores the fit, and generates a tailored CV and cover letter as typeset PDFs. Also a study in cost: token usage cut by ~94% across the LLM calls by moving keyword extraction to local TF-IDF and adding caching. *FastAPI, React, Playwright, Chrome extension*
 
-**Ryfe** — an always-on-top desktop assistant that answers questions about your local git repos and GitHub PRs. Built around one rule: nothing acts on its own. State-mutating actions render a card describing what they'd do and wait for approval, and the git layer has no free-form commands at all. *Rust, Tauri, TypeScript*
+[**Ryfe**](https://github.com/elezenryfe/ryfe) — an always-on-top desktop assistant that answers questions about your local git repos and GitHub PRs. Built around one rule: nothing acts on its own. State-mutating actions render a card describing what they'd do and wait for approval, and the git layer has no free-form commands at all. *Rust, Tauri, TypeScript*
 
 **UK FIRE Planner** — personal financial-independence planner: expense logging, savings-rate tracking, projections and UK ISA/pension rules. *TypeScript, Express, SQLite, React*
 
-**The Obsidian Cat** — a five-act interactive mystery written in ink, with a real state machine behind the prose: a three-step clock gating locations, clue flags, per-suspect trust, and emitted tags so a host app can react without parsing the writing. *ink*
+[**The Obsidian Cat**](https://github.com/elezenryfe/geometry-of-truth) — a five-act interactive mystery written in ink, with a real state machine behind the prose: a three-step clock gating locations, clue flags, per-suspect trust, and emitted tags so a host app can react without parsing the writing. *ink*
 
 ### Also built
 

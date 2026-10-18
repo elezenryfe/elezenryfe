@@ -30,7 +30,7 @@ Data Scientist at **BMW Financial Services**, working on complaint handling, con
 
 [**JobTailor**](https://github.com/elezenryfe/jobtailor) — parses a CV and a job description, scores the fit, and generates a tailored CV and cover letter as typeset PDFs. Also a study in cost: token usage cut by ~94% across the LLM calls by moving keyword extraction to local TF-IDF and adding caching. *FastAPI, React, Playwright, Chrome extension*
 
-[**Ryfe**](https://github.com/elezenryfe/ryfe) — an always-on-top desktop assistant that answers questions about your local git repos and GitHub PRs. Built around one rule: nothing acts on its own. State-mutating actions render a card describing what they'd do and wait for approval, and the git layer has no free-form commands at all. *Rust, Tauri, TypeScript*
+[**Ryfe**](https://github.com/elezenryfe/ryfe) (inspired from [coucou](https://github.com/Louis-CFM/coucou))— an always-on-top desktop assistant that answers questions about your local git repos and GitHub PRs. Built around one rule: nothing acts on its own. State-mutating actions render a card describing what they'd do and wait for approval, and the git layer has no free-form commands at all. *Rust, Tauri, TypeScript*
 
 **UK FIRE Planner** — personal financial-independence planner: expense logging, savings-rate tracking, projections and UK ISA/pension rules. *TypeScript, Express, SQLite, React*
 
